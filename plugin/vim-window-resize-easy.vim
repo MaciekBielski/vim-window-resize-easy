@@ -19,9 +19,9 @@ nmap  <a-l>  <Plug>(vim-window-resize-lt)<Plug>(vim-window-resize-easy)
 nmap  <a-h>  <Plug>(vim-window-resize-gt)<Plug>(vim-window-resize-easy)
 nmap  <a-j>  <Plug>(vim-window-resize-p)<Plug>(vim-window-resize-easy)
 nmap  <a-k>  <Plug>(vim-window-resize-m)<Plug>(vim-window-resize-easy)
-nmap  `-  <Plug>(vim-window-resize-underscore)<Plug>(vim-window-resize-easy)
-nmap  `=  <Plug>(vim-window-resize-equal)<Plug>(vim-window-resize-easy)
-nmap  `\  <Plug>(vim-window-resize-bar)<Plug>(vim-window-resize-easy)
+" nmap  `-  <Plug>(vim-window-resize-underscore)<Plug>(vim-window-resize-easy)
+" nmap  `=  <Plug>(vim-window-resize-equal)<Plug>(vim-window-resize-easy)
+" nmap  `\  <Plug>(vim-window-resize-bar)<Plug>(vim-window-resize-easy)
 
 func! s:getchar_timeout(timer)
 	if s:char_getted
